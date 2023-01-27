@@ -1,0 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@300;400;500&display=swap");
+:root {
+  --primaryColor: rgb(121, 157, 224);
+  --secondaryColor: whitesmoke;
+  --inputColor: #d6e6e7a4;
+}
