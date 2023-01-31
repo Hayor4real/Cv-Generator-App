@@ -245,13 +245,6 @@ function submitForm(btn) {
   let emialEntered = document.createElement("div");
   emialEntered.innerHTML = `  <i class='bx bx-mail-send icon'></i>
                               <h4>${pEmail}</h4>`;
-  contactDiv.appendChild(emialEntered);
-
-  // Creating a new div element for the Website link entered.
-  let websiteEntered = document.createElement("div");
-  websiteEntered.innerHTML = `  <i class='bx bx-globe icon'></i>
-                                <h4>${pWebsite}</h4>`;
-  contactDiv.appendChild(websiteEntered);
 
   // Appending  all the divisions to the main section.
   topSection.appendChild(imageDiv);
